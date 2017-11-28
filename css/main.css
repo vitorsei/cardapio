@@ -11,6 +11,8 @@
 .carousel {
     position: relative;
     display: flex;
+    max-height: 100vh;
+    overflow-y: hidden;
 }
 
 .item {
