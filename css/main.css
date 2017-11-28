@@ -5,6 +5,18 @@
 .main {
     display:inline-block;
     background: linear-gradient(180deg, rgba(0, 0, 0, .37) 50%, #222 79%);
+
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+}
+
+.item {
+    position: relative;
+    min-width: 100vw;
+    overflow-x: scroll;
 }
 
 .gradient {
@@ -39,7 +51,7 @@ body {
     overflow: scroll;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, summary {
     display: block
 }
 
@@ -272,6 +284,8 @@ img {
     vertical-align: middle;
     display: inline-block
 }
+
+
 
 html.w-mod-touch * {
     background-attachment: scroll !important
@@ -2401,6 +2415,8 @@ img {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+    z-index: 2;
+    max-width: 100vw;
 }
 
 .pageindicator {
